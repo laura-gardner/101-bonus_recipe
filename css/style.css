@@ -1,0 +1,132 @@
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+header img {
+    width: 43px;
+    height: 39px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #F16059;
+    padding: 0 0.5rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DAF7F6;
+}
+
+.card {
+    width: 1400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.image, .recipe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cookies .image {
+    background-image: url(../img/gluten-free-sugar-cookies.jpg);
+    background-size: cover;
+}
+
+#pesto .image {
+    background-image: url(../img/nut-free-pesto.jpg);
+    background-size: cover;
+}
+
+#salad .image {
+    background-image: url(../img/watermelon-salad.jpg);
+    background-size: cover;
+}
+
+.recipe h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #F16059;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.time {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.3rem;
+    padding: 1rem;
+}
+
+.prep, .cook, .total {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #3B3B3B;
+    padding-left: 0.5rem;
+}
+
+.prep, .cook {
+    border-right: none;
+}
+
+
+.prep img, .cook img, .total img {
+    height: 30px;
+    padding-right: 0.5rem;
+}
+
+.time-details {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+}
+
+.description, .ingredients, .directions {
+    padding-left: 1rem;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients, .directions {
+    width: 50%;
+    padding-right: 0.5rem;
+}
+
+.ingredients h3, .directions h3 {
+    text-transform: uppercase;
+    color: #F16059;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    padding: 0.25rem 0;
+}
+
+.ingredients ol, ul, .directions ol, ul {
+    padding-left: 1rem;
+    line-height: 2;
+}
